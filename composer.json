@@ -1,0 +1,24 @@
+{
+    "name": "vdopool/sms",
+    "description": "",
+    "authors": [
+        {
+            "name": "gengzhiguo",
+            "email": "gengzhiguo@starschina.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+        "guzzlehttp/guzzle": "~4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Vdopool\\Sms\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
